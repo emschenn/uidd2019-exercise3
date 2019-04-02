@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+  font-size: 12px;
+}
+button {
+  background-color: #636363;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: none;
+  color: #c4c4c4;
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  color:white
+}
+input[type="text"]{
+  height:10px;
+  width: 80px;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "uidd2019-exercise3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/emschenn/uidd2019-exercise3",
+  "author": "emschenn <emilynov14@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jquery": "^3.3.1"
+  }
+}
