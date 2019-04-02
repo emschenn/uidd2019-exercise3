@@ -3,8 +3,9 @@ $(document).ready(function() {
     event.preventDefault()
 		console.log("hi")
     $.get('./listall',(data) =>{
-      var d=(JSON.stringify(data,null,'\t'))
-      d.substring(1,d.length-1);
+      var d=(JSON.stringify(data,null,"\t"))
+      d=d.substring(1,d.length-1);
+      d=d.replace(/,/gi,'<br>');
       console.log(d)
       $("#listall").html(d)
     })

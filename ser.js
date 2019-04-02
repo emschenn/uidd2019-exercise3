@@ -40,8 +40,8 @@ app.get('/listall', (req, res) => {
   res.send(fs);
 })
 
-app.listen(5100, function () {
-  console.log('Example app listening on port 5100!');
+app.listen(12500, function () {
+  console.log('Example app listening on port 12500!');
 });
 
 
